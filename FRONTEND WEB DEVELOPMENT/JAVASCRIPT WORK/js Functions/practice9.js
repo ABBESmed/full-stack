@@ -32,3 +32,10 @@ function leftUntil90(Age) {
   );
 }
 leftUntil90(28);
+
+// Function with outputs and return values
+function iceCream(money) {
+  return money % 3.99;
+}
+var change = iceCream(10);
+console.log("Your change is: " + Math.floor(change));
