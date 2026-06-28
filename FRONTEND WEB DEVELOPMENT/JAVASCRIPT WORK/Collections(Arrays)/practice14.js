@@ -1,4 +1,4 @@
-/*var familyName = ["Mohammed zoheir", "Nassiba", "Lahouari"];
+var familyName = ["Mohammed zoheir", "Nassiba", "Lahouari"];
 console.log(familyName[2]);
 console.log(familyName.length);
 console.log(familyName.includes("Mohammed zoheir"));
@@ -12,7 +12,7 @@ if (fruits.includes(theEnterFruit)) {
   console.log("welcome");
 } else {
   console.log("error");
-}*/
+}
 
 var output = [];
 var i = 0;
