@@ -70,3 +70,35 @@ function whoIsPaying(Names) {
   return thePersonPaying;
 }
 console.log(whoIsPaying(Names));
+
+var NAMES = ["Nassiba", "Mohammed", "Tom", "Jerry"];
+function countLongerNames(NAMES) {
+  var count = 0;
+  if (NAMES[0].length > 5) {
+    count++;
+  }
+  if (NAMES[1].length > 5) {
+    count++;
+  }
+  if (NAMES[2].length > 5) {
+    count++;
+  }
+  if (NAMES[3].length > 5) {
+    count++;
+  }
+  return count;
+}
+console.log(countLongerNames(NAMES));
+
+var numbers = [28, 33, 369];
+function whoIsBigger(numbers) {
+  var Biggest = numbers[0];
+  if (numbers[1] > Biggest) {
+    Biggest = numbers[1];
+  }
+  if (numbers[2] > Biggest) {
+    Biggest = numbers[2];
+  }
+  return Biggest;
+}
+console.log(whoIsBigger(numbers));
